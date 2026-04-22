@@ -69,7 +69,7 @@ This repository is a practical implementation of Kubernetes concepts ranging fro
 ## 📁 Repository Structure
 
 ```
-k8s-production-labs/
+kubernetes-zero-to-production/
 │
 ├── 01-basics/
 ├── 02-networking/
@@ -78,7 +78,7 @@ k8s-production-labs/
 ├── 05-monitoring/
 ├── 06-ci-cd/
 ├── projects/
-├── docs/
+├── docs-essentials/
 └── README.md
 ```
 
@@ -105,8 +105,8 @@ k8s-production-labs/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/k8s-production-labs.git
-cd k8s-production-labs
+git clone https://github.com/Hutishseju/kubernetes-zero-to-production.git
+cd kubernetes-zero-to-production
 ```
 
 ### Apply Basic Resources
