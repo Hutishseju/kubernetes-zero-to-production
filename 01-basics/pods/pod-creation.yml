@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod-demo
+  labels:
+    env: demo
+    type: frontend
+spec:
+  containers:
+    - name: single-node-cluster-control-plane
+      image: nginx:latest
+      resources:
+        limits:
+          memory: "128Mi"
+          cpu: "512m"
+        requests:
+          memory: "64Mi"
+          cpu: "256m"
+      ports:
+        - containerPort: 80
